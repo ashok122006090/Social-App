@@ -7,7 +7,9 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/messages")
-@CrossOrigin(origins = "*")  // Allow all origins (Frontend can access)
+//@CrossOrigin(origins = "*")  // Allow all origins (Frontend can access)
+@CrossOrigin(origins = "https://social-app-frontend-sooty.vercel.app")
+
 public class MessageController {
 
     @Autowired
