@@ -21,4 +21,6 @@ public class Message {
 
     @Column(columnDefinition = "TEXT")
     private String text;
+
+    private String emotion; // ✅ New field
 }
